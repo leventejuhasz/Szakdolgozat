@@ -8,6 +8,11 @@ version: 1.0
   width: 100%;
 }
 
+.text-right{
+text-align: right;
+
+}
+
 * {
   margin: 0 0;
   padding: 0 0;
@@ -19,10 +24,30 @@ version: 1.0
   margin: 0 auto;
   padding: 1%;
 }
+.clearfix{
+
+    clear: both;
+    float: none;
+}
 
 /* Css for navbar section*/
 
 .logo {
   border: 1px solid black;
   width: 10%;
+  float: left;
+}
+
+.menu{
+
+    line-height: 60px;
+}
+.menu ul{
+list-style-type: none;
+
+}
+
+.menu ul li{
+
+    display: inline;
 }
