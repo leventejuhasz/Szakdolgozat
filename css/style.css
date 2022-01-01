@@ -28,16 +28,37 @@ version: 1.0
   float: none;
 }
 a {
-  color: black;
+  color: #ff6b81;
   text-decoration: none;
 }
 a:hover {
-  color: #7fff00;
+  color: #ff4757;
 }
 .text-center {
   text-align: center;
 }
+.btn{
+    padding: 1%;
+    border: none;
+    font-size: 1rem;
+    border-radius: 10px;
+}
+.btn-primary{
 
+    background-color: #ff6b81;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-primary:hover{
+    background-color: #ff4757;
+
+}
+h2{
+
+    color: #2f3542;
+    font-size: 1.3rem;
+}
 /* Css for navbar section*/
 
 .logo {
@@ -71,7 +92,14 @@ a:hover {
 
 .food-search input[type="search"]{
 width: 50%;
+padding: 1%;
+font-size: 1rem;
+border: none;
+border-radius: 10px;
 
-
-
+}
+/* Css for Categories*/
+.categories{
+    
+    padding: 4% 0;
 }
