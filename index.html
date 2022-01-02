@@ -7,14 +7,17 @@
     <title>Étterem</title>
     <link rel="stylesheet" href="css/style.css" />
   </head>
+
   <body>
     <!-- Navbar section starts here-->
     <section class="Navbar">
       <div class="container">
         <div class="logo">
-            <img src="images/logo.jpeg" alt="Restaurant Logo" class="img-responsive">
-
-
+          <img
+            src="images/logo.jpeg"
+            alt="Restaurant Logo"
+            class="img-responsive"
+          />
         </div>
 
         <div class="menu text-right">
@@ -46,7 +49,12 @@
       <div class="container">
         <form action="">
           <input type="search" name="search" placeholder="Search for food..." />
-          <input type="submit" name="submit" value="Keresés" class="btn btn-primary" /> 
+          <input
+            type="submit"
+            name="submit"
+            value="Keresés"
+            class="btn btn-primary"
+          />
         </form>
       </div>
     </section>
@@ -57,25 +65,51 @@
       <div class="container">
         <h2 class="text-center">Categories</h2>
 
-        <div class="box-3">box1</div>
-        <div class="box-3">box2</div>
-        <div class="box-3">box3</div>
+        <div class="box-3 float-container">
+          <img
+            src="images/pizza.jpg"
+            alt="Pizza"
+            class="img-responsive img-curve"
+          />
+
+          <h3 class="float-text text-white">Pizza</h3>
+        </div>
+        <div class="box-3 float-container">
+          <img
+            src="images/burger.jpg"
+            alt="Burger"
+            class="img-responsive img-curve"
+          />
+
+          <h3 class="float-text text-white">Burger</h3>
+        </div>
+        <div class="box-3 float-container">
+          <img
+            src="images/momo.jpg"
+            alt="Momo"
+            class="img-responsive img-curve"
+          />
+
+          <h3 class="float-text text-white">Momó</h3>
+        </div>
+        <div class="clearfix"></div>
       </div>
     </section>
     <!-- Categories section ends here-->
 
     <!-- Food menu section starts here-->
-    <section class="Food-menu">
+    <section class="food-menu">
       <div class="container">
-        <h2>Explore foods</h2>
+        <h2 class="text-center">Explore foods</h2>
 
-        <div class="Food-menu">Food menu 1</div>
+        <div class="food-menu-box">Food menu 1</div>
 
-        <div class="Food-menu">Food menu 2</div>
+        <div class="food-menu-box">Food menu 2</div>
 
-        <div class="Food-menu">Food menu 3</div>
+        <div class="food-menu-box">Food menu 3</div>
 
-        <div class="Food-menu">Food menu 4</div>
+        <div class="food-menu-box">Food menu 4</div>
+        <div class="clearfix"></div>
       </div>
     </section>
     <!--  Food menu section ends here-->
@@ -95,8 +129,6 @@
           </li>
         </ul>
       </div>
-
-     
     </section>
     <!-- Social section ends here-->
 
