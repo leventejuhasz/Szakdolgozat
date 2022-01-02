@@ -53,6 +53,7 @@ a:hover {
 }
 
 .btn-primary:hover {
+  color: white;
   background-color: #ff4757;
 }
 h2 {
@@ -137,4 +138,26 @@ h2 {
   border: 1px solid black;
   margin: 1%;
   float: left;
+  border-radius: 15px;
+}
+.food-menu-img{
+width: 20%;
+float: left;
+
+}
+
+.food-price{
+font-size: 1.2rem;
+margin: 2% 0;
+
+}
+.food-menu-desc{
+width: 70%;
+float: left;
+margin-left: 8%;
+
+}
+.food-detail{
+  font-size: 1rem;
+  color: #747d8c;
 }
